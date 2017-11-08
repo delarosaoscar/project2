@@ -1,0 +1,168 @@
+
+* {
+			box-sizing: border-box;
+		}
+		/*hero image*/
+
+		body,
+		html {
+			height: 100%;
+			margin: 0;
+		}
+
+		body {
+			background-color: #f1f1f1;
+			padding: 2px;
+			font-family: Arial;
+		}
+
+		.hero-image {
+			background-image: url("../img/header2index.jpg");
+			height: 60%;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+
+		.hero-text {
+			text-align: center;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: white;
+		}
+
+		.hero-text button {
+			border: none;
+			outline: 0;
+			display: inline-block;
+			padding: 10px 25px;
+			color: black;
+			background-color: #ddd;
+			text-align: center;
+			cursor: pointer;
+		}
+
+		.hero-text button:hover {
+			background-color: #555;
+			color: white;
+		}
+
+
+		div.galley {
+			margin: 5px;
+			border: 1px solid #ccc float: left;
+			width: 180px
+		}
+
+		div.gallery:hover {
+			border: 1 px solid #777;
+		}
+
+		div.gallery img {
+			width: 15%;
+			height: auto;
+		}
+
+		div.desc {
+			padding: 15px;
+			text-align: center;
+		}
+		/*portfolio gallary style*/
+
+		.main {
+			max-width: 1000px;
+			margin: auto;
+		}
+
+		h1 {
+			font-size: 50px;
+			word-break: break-all;
+		}
+
+		.row {
+			margin: 9px -16px;
+		}
+
+
+		.row,
+		.row>.column {
+			padding: 12px;
+		}
+
+
+		.column {
+			float: right;
+			width: 25%;
+		}
+
+
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		/ .content {
+			background-color: white;
+			padding: 10px;
+		}
+		/*style footer*/
+
+		.footer {
+			background-color: whitesmoke;
+			height: "500";
+			padding: 16px;
+			text-align: center;
+			text-decoration-color: white;
+		}
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+/*			background-color: #333;*/
+		}
+
+		li {
+			display: inline;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: black;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover {
+			background-color: gray;
+		}
+#contact{
+width: 600px;
+margin:0 auto;
+}
+#about{
+	width: 1000px;
+	margin: auto;
+}
+		@media (max-width: 1000px) {
+			.column {
+				width: 50%;
+			}
+		}
+
+
+		@media (max-width: 600px) {
+			.column {
+				width: 100%;
+			}
+		}
